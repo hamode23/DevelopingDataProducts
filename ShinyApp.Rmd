@@ -1,0 +1,25 @@
+---
+title: "Shiny Application and Reproducible Pitch Presentation"
+author: "MM"
+date: "January 31, 2016"
+output: html_document
+---
+
+
+##Shiny App Overview
+
+You can access my app in the following url:
+https://hamode23.shinyapps.io/CarMpg/
+
+CarMpg is a simple shiny app. The user need to select a car model from a drop down. once user select car model , the app will print the mpg (mile per gallon) for selected car model.
+
+The data for CarMpg app is based on mtcars dataset whcih is available in R.
+
+##Reproducible Pitch Presentation
+
+ library(devtools)
+ library(slidify)
+
+Project Name
+ author("Car MPG")
+ 
